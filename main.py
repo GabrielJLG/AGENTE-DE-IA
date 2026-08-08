@@ -29,7 +29,7 @@ if st.button('enviar'):
         messages=[
         {
         'role':'system',
-        'content':"Você é o Doutor Destino de VINGADORES."
+        'content':"Você é um piloto de avião experiente."
         },
         {
             'role':'user',
