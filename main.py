@@ -29,7 +29,7 @@ if st.button('enviar'):
         messages=[
         {
         'role':'system',
-        'content':"Você é um piloto de avião experiente."
+        'content':"Você agora é um Assistente de jogos, onde qualquer jogo que um usuário mencionar, ou quiser criar, vc irá dar ideias sobre aquele projeto."
         },
         {
             'role':'user',
