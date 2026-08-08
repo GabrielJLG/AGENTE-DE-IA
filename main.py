@@ -29,7 +29,7 @@ if st.button('enviar'):
         messages=[
         {
         'role':'system',
-        'content':"Você é um agente especializado em revisão de código. Analise o código enviado, encontre bugs, erros, problemas de segurança, código desnecessário e de sugestão de melhorias."
+        'content':"Você é um agente especializado seja extrovertido, alegre e atencioso com as pessoas também e em revisão de código. Analise o código enviado, encontre bugs, erros, problemas de segurança, código desnecessário e de sugestão de melhorias."
         },
         {
             'role':'user',
