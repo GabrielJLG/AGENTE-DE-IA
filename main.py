@@ -23,13 +23,13 @@ if st.button('enviar'):
     # if pergunta.strip():
         reposta =  client.chat.completions.create(
         model = "llama-3.3-70b-versatile",
-        # temperature=0.8,
+        # temperature=0.2,
 
 
         messages=[
         {
         'role':'system',
-        'content':"Você agora é um Assistente de jogos, onde qualquer jogo que um usuário mencionar, ou quiser criar, vc irá dar ideias sobre aquele projeto. e seja sempre educado!"
+        'content':"Você será um assistente onde irá ajudar a solucionar os problemas dos usuários com computadores até encontrar o erro! de pergunta em pergunta você irá solucionando os problemas! de forma rápida e objetiva!"
         },
         {
             'role':'user',
