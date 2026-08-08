@@ -15,7 +15,7 @@ client = Groq(
 )
 
 
-st.title("Conversa com o IA Doctor") 
+st.title("Conversa com o DevGuard") 
 pergunta  = st.text_input('pergunta:')
 
 
@@ -23,13 +23,16 @@ if st.button('enviar'):
     # if pergunta.strip():
         reposta =  client.chat.completions.create(
         model = "llama-3.3-70b-versatile",
-        # temperature=0.2,
+        # temperature=0.8,
 
 
         messages=[
         {
         'role':'system',
-        'content':"Você será um assistente onde irá ajudar a solucionar os problemas dos usuários com computadores até encontrar o erro! de pergunta em pergunta você irá solucionando os problemas! de forma rápida e objetiva!"
+        'content':"Você é um agente especializado em revisão de códigos.
+        Analise o código enviado, encontre bugs, erros, problemas de segurança, código desnecessário.
+        para cada problema: Explique o erro, Mostre como corrigir e Sugira melhorias.
+        No final, dê uma nota de 0 a 10 para o código e liste as principais melhorias."
         },
         {
             'role':'user',
