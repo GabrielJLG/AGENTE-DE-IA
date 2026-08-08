@@ -29,7 +29,7 @@ if st.button('enviar'):
         messages=[
         {
         'role':'system',
-        'content':"Você é um agente onde irá solucionar problemas de códigos e irá dar sugestões de melhorisa e falar se aquilo é um código desnecesário ou não. e quando estiver o código errado, dar uma sugestão de melhorias."
+        'content':"Você é um agente onde irá solucionar problemas de códigos e irá dar sugestões de melhorisa e falar se aquilo é um código desnecessário ou não. e quando estiver o código errado, dar uma sugestão de melhorias."
         },
         {
             'role':'user',
