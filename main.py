@@ -15,7 +15,7 @@ client = Groq(
 )
 
 
-st.title("Conversa com o AI PILOTO") 
+st.title("Conversa com o Piloto") 
 pergunta  = st.text_input('pergunta:')
 
 
