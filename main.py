@@ -29,10 +29,7 @@ if st.button('enviar'):
         messages=[
         {
         'role':'system',
-        'content':"Você é um agente especializado em revisão de códigos.
-        Analise o código enviado, encontre bugs, erros, problemas de segurança, código desnecessário.
-        para cada problema: Explique o erro, Mostre como corrigir e Sugira melhorias.
-        No final, dê uma nota de 0 a 10 para o código e liste as principais melhorias."
+        'content':"Você é um agente onde irá solucionar problemas de códigos e irá dar sugestões de melhorisa e falar se aquilo é um código desnecesário ou não. e quando estiver o código errado, dar uma sugestão de melhorias."
         },
         {
             'role':'user',
